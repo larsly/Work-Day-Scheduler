@@ -27,12 +27,12 @@ $(function () {
     colors();
   }
 
-  //populating the local storage
+  //looping through save buttons and populating the local storage
   for (var i = 0; i < btnEls.length; i++) {
     textEls[i].innerText = JSON.parse(localStorage.getItem(btnEls[i].parentElement.id));
     btnEls[i].addEventListener("click", function () {
-      var inputText = $(this).siblings(".description").val();
-      localStorage.setItem(this.parentElement.id, JSON.stringify(inputText));
+      var saveText = $(this).siblings(".description").val();
+      localStorage.setItem(this.parentElement.id, JSON.stringify(saveText));
     });
   }
 
