@@ -6,7 +6,7 @@ This is a schedule for your typical 9-5 work day broken up in to blocks by the h
 
 ## Skills Used
 
-In this challeneg I have saved elements in variables to use in functions that keep track of the day of the week, the hours of the day, the button for saving events, and the text input by the user. I have a function looping through the divs that act as time blocks using the parent id and subtracting by 9 to account for the index in the array in order to assign the proper class depending on the time of day. Then there is a function updating the current day at the top of the page.
+In this challeneg I have saved elements in variables to use in functions that keep track of the day of the week, the hours of the day, the button for saving events, and the text input by the user. I have a function looping through the divs that act as time blocks using the parent id and subtracting by 9 to account for the index in the array in order to assign the proper class depending on the time of day. Then there is a function updating the current day at the top of the page. Lastly I have a for loop adding an event listener to each save button in order to save the text in local storage and populate what you've saved in each time block on the page.
 
 ## Installation
 
@@ -20,7 +20,7 @@ git clone https://github.com/larsly/Work-Day-Scheduler
 
 To view the live website go to [https://larsly.github.io/Work-Day-Scheduler/](https://larsly.github.io/Work-Day-Scheduler/)
 
-![usage screenshot](assets/screenshot.png)
+![usage screenshot](./Assets/screenshot.png)
 
 
 ## Credits
